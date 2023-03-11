@@ -30,12 +30,17 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
 }
 
 section#login > div#imagem {
-    background: #5f2c82 url(../Imagens/pexels-scott-webb-139198.jpg);
+    background: #5f2c82 url(../Imagens/pexels-scott-webb-139198.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
 }
