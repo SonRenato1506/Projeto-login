@@ -40,7 +40,13 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../Imagens/pexels-scott-webb-139198.jpg) no-repeat;
     background-size: cover;
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
