@@ -71,7 +71,9 @@ form > div.campo {
     margin: 5px 0;
 }
 
-
+div.campo > label > i {
+    color: white;
+}
 
 form > input[type=submit] {
     display: block;
