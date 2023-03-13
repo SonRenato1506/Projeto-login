@@ -73,6 +73,9 @@ form > div.campo {
 
 div.campo > label > i {
     color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
 }
 
 form > input[type=submit] {
